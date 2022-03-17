@@ -1,5 +1,5 @@
 {
-  "name": "spfcnews",
+  "name": "hstorynews",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +8,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prismicio/client": "5.1.0",
+    "@stripe/stripe-js": "^1.24.0",
+    "axios": "^0.26.0",
+    "faunadb": "^4.5.2",
     "next": "12.0.10",
+    "next-auth": "^3.28.0",
+    "prismic-dom": "^2.2.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "sass": "^1.49.7"
+    "sass": "^1.49.7",
+    "stripe": "^8.203.0"
   },
   "devDependencies": {
+    "@types/next-auth": "^3.15.0",
     "@types/node": "^17.0.18",
     "@types/react": "^17.0.39",
     "eslint": "8.9.0",

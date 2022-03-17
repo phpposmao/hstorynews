@@ -10,6 +10,7 @@
 
   --grey-100: #e1e1e6;
   --grey-300: #a8a8b3;
+  --grey-700: #323238;
   --grey-800: #29292e;
   --grey-850: #1f2729;
   --grey-900: #121214;
@@ -35,7 +36,7 @@
 }
 
 body {
-  background: var(--black);
+  background: var(--grey-900);
   color: var(--white);
 }
 
